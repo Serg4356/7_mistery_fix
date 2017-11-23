@@ -5,7 +5,7 @@
 # Как использовать
 
 Программа содержит одну функцию - get_roots(a, b, c), которая принимает на вход 3 аргумента - коэффициенты квадратного уравнения. Формат ответа - две переменные. В программе используется функция sqrt из модуля math. Пример кода:
-'''python
+```python
 def get_roots(a, b, c):
     discriminant = b ** 2 - 4 * a * c
     if discriminant < 0:
@@ -16,7 +16,7 @@ def get_roots(a, b, c):
         return root1, None
     else:
         return root1, root2
-'''
+```
 
 # Как запустить
 
