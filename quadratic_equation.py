@@ -5,7 +5,6 @@ def get_roots(a, b, c):
     discriminant = b ** 2 - 4 * a * c
     if discriminant < 0:
     	return 'discriminant < 0',' there is no roots'
-
     root1 = (-b - sqrt(discriminant)) / (2 * a)
     root2 = (-b + sqrt(discriminant)) / (2 * a)
     if discriminant == 0:
